@@ -1,5 +1,5 @@
 # JDAWidgets_SwiftUI #
-SwiftUI components that I used in day-to-day iOS Dev life.
+SwiftUI components for day-to-day iOS Dev.
 
 ### 1. SwiftUI Country Picker ###
 
