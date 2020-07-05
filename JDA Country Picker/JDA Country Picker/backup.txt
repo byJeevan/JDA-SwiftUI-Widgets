@@ -1,0 +1,99 @@
+
+//
+//  CountryPicker.swift
+//  JDA Country Picker
+//
+//  Created by Jeevan on 04/07/20.
+//  Copyright © 2020 JDA. All rights reserved.
+//
+
+import SwiftUI
+ 
+struct CountryPicker: View {
+    
+    @State var isPickerSelected = false
+    var countries = ["Red", "Green", "Blue", "Tartan"]
+    @State private var selectedCountry = -1
+    @State private var selectedCountryValue:String = "Select Country"
+    
+ 
+    
+    private func pickerButton() -> some View {
+        
+        return  Button(action: {
+            print("Login tapped!")
+            self.isPickerSelected = !self.isPickerSelected
+            
+        }) {
+            Text("\(selectedCountryValue)")
+                .fontWeight(.semibold)
+                .font(.headline)
+                .background(Color.white)
+                .foregroundColor(Color.red)
+                .frame(minWidth: 100, maxWidth: .infinity, minHeight: 50)
+                .cornerRadius(25.0)
+        }
+    }
+    
+    private func pickerFooterButtons() -> some  View {
+        return HStack {
+            Button(action: {
+                self.isPickerSelected = !self.isPickerSelected
+                self.selectedCountryValue =  self.countries[self.selectedCountry]
+            }) {
+                HStack {
+                    Text("Done")
+                        .padding(EdgeInsets.init(top: 5, leading: 10, bottom: 5, trailing: 10))
+                        .foregroundColor(.white)
+                        .background(Color.green)
+                        .font(Font.subheadline)
+                        .cornerRadius(5.0)
+                    
+                }
+                
+            }.padding(15)
+ 
+        }
+    }
+    
+    
+    private func pickerView() -> some View {
+        return
+            Picker(selection: $selectedCountry, label: Text("Select Country")) {
+            ForEach(0 ..< countries.count) {
+                Text(self.countries[$0]).tag($0)
+            }
+        }
+    }
+    
+    var body: some View {
+        VStack {
+             
+            self.pickerButton()
+             
+            if isPickerSelected == true {
+                VStack{
+                    
+                    self.pickerView()
+                    
+                    
+                                        self.pickerFooterButtons().padding([.leading, .trailing], 20)
+                    
+                }   .background( RoundedRectangle(cornerRadius: 15)
+                                            .foregroundColor(Color.white)
+                                            .shadow( color: Color.gray.opacity(0.35), radius: 15, x: 0, y: 0))
+            }
+            
+        }.padding(30)
+    }
+}
+
+struct CountryPicker_Previews: PreviewProvider {
+    static var previews: some View {
+        CountryPicker()
+    }
+}
+
+
+
+
