@@ -9,25 +9,17 @@
 import Foundation
 import SwiftUI
 
-struct Country {
+struct Country: Hashable {
     
-    var code: String?
-    var name: String?
-    var phoneCode: String?
+    var code: String
+    var name: String
+    var phoneCode: String
     var flag: Image? {
-        guard let code = self.code else { return nil }
         guard let bundlePath = Bundle.main.path(forResource: "SwiftCountryPicker", ofType: "bundle") else { return nil }
         guard let bundle = Bundle(path: bundlePath)  else { return nil }
         guard let imagePath = bundle.path(forResource: "Images/\(code.uppercased())", ofType: "png") else { return nil }
         guard let uiImage = UIImage(contentsOfFile: imagePath) else { return nil }
         return Image.init(uiImage: uiImage)
-    }
-    
-    init(code: String?, name: String?, phoneCode: String?) {
-        self.code = code
-        self.name = name
-        self.phoneCode = phoneCode
-        
     }
     
     // Populates the metadata from the included json file resource

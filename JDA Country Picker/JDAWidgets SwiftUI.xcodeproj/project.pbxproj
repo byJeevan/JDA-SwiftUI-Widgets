@@ -12,67 +12,32 @@
 		0947885724B09FE4001EB830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0947885624B09FE4001EB830 /* Assets.xcassets */; };
 		0947885A24B09FE4001EB830 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0947885924B09FE4001EB830 /* Preview Assets.xcassets */; };
 		0947885D24B09FE4001EB830 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0947885B24B09FE4001EB830 /* LaunchScreen.storyboard */; };
-		0947886824B09FE4001EB830 /* JDA_Country_PickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0947886724B09FE4001EB830 /* JDA_Country_PickerTests.swift */; };
-		0947887324B09FE4001EB830 /* JDA_Country_PickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0947887224B09FE4001EB830 /* JDA_Country_PickerUITests.swift */; };
 		0947888124B0AE24001EB830 /* CountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0947888024B0AE24001EB830 /* CountryPicker.swift */; };
 		0947888324B0CA32001EB830 /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0947888224B0CA32001EB830 /* CountryModel.swift */; };
 		09B7C88424B0CD0600D91DE2 /* SwiftCountryPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 09B7C88324B0CD0600D91DE2 /* SwiftCountryPicker.bundle */; };
-		09F6F88924B1A17000E7FA87 /* backup.txt in Resources */ = {isa = PBXBuildFile; fileRef = 09F6F88824B1A17000E7FA87 /* backup.txt */; };
+		43294508276E2BB300D8C38D /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43294507276E2BB300D8C38D /* FloatingButton.swift */; };
+		4329450B276E30D600D8C38D /* Dropdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4329450A276E30D600D8C38D /* Dropdown.swift */; };
+		43DF6220273413DF00BE847B /* OptionsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DF621F273413DF00BE847B /* OptionsListView.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		0947886424B09FE4001EB830 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0947884524B09FDE001EB830 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0947884C24B09FDE001EB830;
-			remoteInfo = "JDA Country Picker";
-		};
-		0947886F24B09FE4001EB830 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0947884524B09FDE001EB830 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0947884C24B09FDE001EB830;
-			remoteInfo = "JDA Country Picker";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		0947884D24B09FDE001EB830 /* JDA Country Picker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JDA Country Picker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0947884D24B09FDE001EB830 /* JDAWidgets SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JDAWidgets SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0947885024B09FDE001EB830 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0947885224B09FDE001EB830 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0947885624B09FE4001EB830 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0947885924B09FE4001EB830 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0947885C24B09FE4001EB830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0947885E24B09FE4001EB830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0947886324B09FE4001EB830 /* JDA Country PickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JDA Country PickerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0947886724B09FE4001EB830 /* JDA_Country_PickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JDA_Country_PickerTests.swift; sourceTree = "<group>"; };
-		0947886924B09FE4001EB830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0947886E24B09FE4001EB830 /* JDA Country PickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JDA Country PickerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0947887224B09FE4001EB830 /* JDA_Country_PickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JDA_Country_PickerUITests.swift; sourceTree = "<group>"; };
-		0947887424B09FE4001EB830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0947888024B0AE24001EB830 /* CountryPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPicker.swift; sourceTree = "<group>"; };
 		0947888224B0CA32001EB830 /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
 		09B7C88324B0CD0600D91DE2 /* SwiftCountryPicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SwiftCountryPicker.bundle; sourceTree = "<group>"; };
-		09F6F88824B1A17000E7FA87 /* backup.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = backup.txt; sourceTree = "<group>"; };
+		43294507276E2BB300D8C38D /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
+		4329450A276E30D600D8C38D /* Dropdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dropdown.swift; sourceTree = "<group>"; };
+		43DF621F273413DF00BE847B /* OptionsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0947884A24B09FDE001EB830 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0947886024B09FE4001EB830 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0947886B24B09FE4001EB830 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -85,9 +50,7 @@
 		0947884424B09FDE001EB830 = {
 			isa = PBXGroup;
 			children = (
-				0947884F24B09FDE001EB830 /* JDA Country Picker */,
-				0947886624B09FE4001EB830 /* JDA Country PickerTests */,
-				0947887124B09FE4001EB830 /* JDA Country PickerUITests */,
+				0947884F24B09FDE001EB830 /* JDAWidgets SwiftUI */,
 				0947884E24B09FDE001EB830 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,28 +58,26 @@
 		0947884E24B09FDE001EB830 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0947884D24B09FDE001EB830 /* JDA Country Picker.app */,
-				0947886324B09FE4001EB830 /* JDA Country PickerTests.xctest */,
-				0947886E24B09FE4001EB830 /* JDA Country PickerUITests.xctest */,
+				0947884D24B09FDE001EB830 /* JDAWidgets SwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0947884F24B09FDE001EB830 /* JDA Country Picker */ = {
+		0947884F24B09FDE001EB830 /* JDAWidgets SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				43294509276E30C600D8C38D /* 1. Dropdown */,
+				43DF611D2733BDD600BE847B /* 2 Country Picker */,
+				43294506276E2B9A00D8C38D /* 3 Floating Button */,
 				0947885024B09FDE001EB830 /* AppDelegate.swift */,
 				0947885224B09FDE001EB830 /* SceneDelegate.swift */,
-				0947888024B0AE24001EB830 /* CountryPicker.swift */,
-				0947888224B0CA32001EB830 /* CountryModel.swift */,
-				09B7C88324B0CD0600D91DE2 /* SwiftCountryPicker.bundle */,
+				43DF621F273413DF00BE847B /* OptionsListView.swift */,
 				0947885624B09FE4001EB830 /* Assets.xcassets */,
 				0947885B24B09FE4001EB830 /* LaunchScreen.storyboard */,
 				0947885E24B09FE4001EB830 /* Info.plist */,
 				0947885824B09FE4001EB830 /* Preview Content */,
-				09F6F88824B1A17000E7FA87 /* backup.txt */,
 			);
-			path = "JDA Country Picker";
+			path = "JDAWidgets SwiftUI";
 			sourceTree = "<group>";
 		};
 		0947885824B09FE4001EB830 /* Preview Content */ = {
@@ -127,30 +88,38 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		0947886624B09FE4001EB830 /* JDA Country PickerTests */ = {
+		43294506276E2B9A00D8C38D /* 3 Floating Button */ = {
 			isa = PBXGroup;
 			children = (
-				0947886724B09FE4001EB830 /* JDA_Country_PickerTests.swift */,
-				0947886924B09FE4001EB830 /* Info.plist */,
+				43294507276E2BB300D8C38D /* FloatingButton.swift */,
 			);
-			path = "JDA Country PickerTests";
+			path = "3 Floating Button";
 			sourceTree = "<group>";
 		};
-		0947887124B09FE4001EB830 /* JDA Country PickerUITests */ = {
+		43294509276E30C600D8C38D /* 1. Dropdown */ = {
 			isa = PBXGroup;
 			children = (
-				0947887224B09FE4001EB830 /* JDA_Country_PickerUITests.swift */,
-				0947887424B09FE4001EB830 /* Info.plist */,
+				4329450A276E30D600D8C38D /* Dropdown.swift */,
 			);
-			path = "JDA Country PickerUITests";
+			path = "1. Dropdown";
+			sourceTree = "<group>";
+		};
+		43DF611D2733BDD600BE847B /* 2 Country Picker */ = {
+			isa = PBXGroup;
+			children = (
+				09B7C88324B0CD0600D91DE2 /* SwiftCountryPicker.bundle */,
+				0947888024B0AE24001EB830 /* CountryPicker.swift */,
+				0947888224B0CA32001EB830 /* CountryModel.swift */,
+			);
+			path = "2 Country Picker";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0947884C24B09FDE001EB830 /* JDA Country Picker */ = {
+		0947884C24B09FDE001EB830 /* JDAWidgets SwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0947887724B09FE4001EB830 /* Build configuration list for PBXNativeTarget "JDA Country Picker" */;
+			buildConfigurationList = 0947887724B09FE4001EB830 /* Build configuration list for PBXNativeTarget "JDAWidgets SwiftUI" */;
 			buildPhases = (
 				0947884924B09FDE001EB830 /* Sources */,
 				0947884A24B09FDE001EB830 /* Frameworks */,
@@ -160,46 +129,10 @@
 			);
 			dependencies = (
 			);
-			name = "JDA Country Picker";
+			name = "JDAWidgets SwiftUI";
 			productName = "JDA Country Picker";
-			productReference = 0947884D24B09FDE001EB830 /* JDA Country Picker.app */;
+			productReference = 0947884D24B09FDE001EB830 /* JDAWidgets SwiftUI.app */;
 			productType = "com.apple.product-type.application";
-		};
-		0947886224B09FE4001EB830 /* JDA Country PickerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0947887A24B09FE4001EB830 /* Build configuration list for PBXNativeTarget "JDA Country PickerTests" */;
-			buildPhases = (
-				0947885F24B09FE4001EB830 /* Sources */,
-				0947886024B09FE4001EB830 /* Frameworks */,
-				0947886124B09FE4001EB830 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0947886524B09FE4001EB830 /* PBXTargetDependency */,
-			);
-			name = "JDA Country PickerTests";
-			productName = "JDA Country PickerTests";
-			productReference = 0947886324B09FE4001EB830 /* JDA Country PickerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		0947886D24B09FE4001EB830 /* JDA Country PickerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0947887D24B09FE4001EB830 /* Build configuration list for PBXNativeTarget "JDA Country PickerUITests" */;
-			buildPhases = (
-				0947886A24B09FE4001EB830 /* Sources */,
-				0947886B24B09FE4001EB830 /* Frameworks */,
-				0947886C24B09FE4001EB830 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0947887024B09FE4001EB830 /* PBXTargetDependency */,
-			);
-			name = "JDA Country PickerUITests";
-			productName = "JDA Country PickerUITests";
-			productReference = 0947886E24B09FE4001EB830 /* JDA Country PickerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -208,23 +141,15 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1300;
 				ORGANIZATIONNAME = JDA;
 				TargetAttributes = {
 					0947884C24B09FDE001EB830 = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
-					0947886224B09FE4001EB830 = {
-						CreatedOnToolsVersion = 11.4.1;
-						TestTargetID = 0947884C24B09FDE001EB830;
-					};
-					0947886D24B09FE4001EB830 = {
-						CreatedOnToolsVersion = 11.4.1;
-						TestTargetID = 0947884C24B09FDE001EB830;
-					};
 				};
 			};
-			buildConfigurationList = 0947884824B09FDE001EB830 /* Build configuration list for PBXProject "JDA Country Picker" */;
+			buildConfigurationList = 0947884824B09FDE001EB830 /* Build configuration list for PBXProject "JDAWidgets SwiftUI" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -237,9 +162,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0947884C24B09FDE001EB830 /* JDA Country Picker */,
-				0947886224B09FE4001EB830 /* JDA Country PickerTests */,
-				0947886D24B09FE4001EB830 /* JDA Country PickerUITests */,
+				0947884C24B09FDE001EB830 /* JDAWidgets SwiftUI */,
 			);
 		};
 /* End PBXProject section */
@@ -253,21 +176,6 @@
 				0947885D24B09FE4001EB830 /* LaunchScreen.storyboard in Resources */,
 				0947885A24B09FE4001EB830 /* Preview Assets.xcassets in Resources */,
 				0947885724B09FE4001EB830 /* Assets.xcassets in Resources */,
-				09F6F88924B1A17000E7FA87 /* backup.txt in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0947886124B09FE4001EB830 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0947886C24B09FE4001EB830 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,43 +186,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43DF6220273413DF00BE847B /* OptionsListView.swift in Sources */,
 				0947888124B0AE24001EB830 /* CountryPicker.swift in Sources */,
 				0947885124B09FDE001EB830 /* AppDelegate.swift in Sources */,
 				0947888324B0CA32001EB830 /* CountryModel.swift in Sources */,
 				0947885324B09FDE001EB830 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0947885F24B09FE4001EB830 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0947886824B09FE4001EB830 /* JDA_Country_PickerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0947886A24B09FE4001EB830 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0947887324B09FE4001EB830 /* JDA_Country_PickerUITests.swift in Sources */,
+				43294508276E2BB300D8C38D /* FloatingButton.swift in Sources */,
+				4329450B276E30D600D8C38D /* Dropdown.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0947886524B09FE4001EB830 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0947884C24B09FDE001EB830 /* JDA Country Picker */;
-			targetProxy = 0947886424B09FE4001EB830 /* PBXContainerItemProxy */;
-		};
-		0947887024B09FE4001EB830 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0947884C24B09FDE001EB830 /* JDA Country Picker */;
-			targetProxy = 0947886F24B09FE4001EB830 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0947885B24B09FE4001EB830 /* LaunchScreen.storyboard */ = {
@@ -354,6 +236,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -414,6 +297,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -446,17 +330,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"JDA Country Picker/Preview Content\"";
-				DEVELOPMENT_TEAM = 8L3YZ48D5A;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JDAWidgets SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "JDA Country Picker/Info.plist";
+				INFOPLIST_FILE = "JDAWidgets SwiftUI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "jda.com.JDA-Country-Picker";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jda.widgets.swiftui;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -466,110 +355,31 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"JDA Country Picker/Preview Content\"";
-				DEVELOPMENT_TEAM = 8L3YZ48D5A;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JDAWidgets SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "JDA Country Picker/Info.plist";
+				INFOPLIST_FILE = "JDAWidgets SwiftUI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "jda.com.JDA-Country-Picker";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jda.widgets.swiftui;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		0947887B24B09FE4001EB830 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8L3YZ48D5A;
-				INFOPLIST_FILE = "JDA Country PickerTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "jda.com.JDA-Country-PickerTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JDA Country Picker.app/JDA Country Picker";
-			};
-			name = Debug;
-		};
-		0947887C24B09FE4001EB830 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8L3YZ48D5A;
-				INFOPLIST_FILE = "JDA Country PickerTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "jda.com.JDA-Country-PickerTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JDA Country Picker.app/JDA Country Picker";
-			};
-			name = Release;
-		};
-		0947887E24B09FE4001EB830 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8L3YZ48D5A;
-				INFOPLIST_FILE = "JDA Country PickerUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "jda.com.JDA-Country-PickerUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "JDA Country Picker";
-			};
-			name = Debug;
-		};
-		0947887F24B09FE4001EB830 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8L3YZ48D5A;
-				INFOPLIST_FILE = "JDA Country PickerUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "jda.com.JDA-Country-PickerUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "JDA Country Picker";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0947884824B09FDE001EB830 /* Build configuration list for PBXProject "JDA Country Picker" */ = {
+		0947884824B09FDE001EB830 /* Build configuration list for PBXProject "JDAWidgets SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0947887524B09FE4001EB830 /* Debug */,
@@ -578,29 +388,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0947887724B09FE4001EB830 /* Build configuration list for PBXNativeTarget "JDA Country Picker" */ = {
+		0947887724B09FE4001EB830 /* Build configuration list for PBXNativeTarget "JDAWidgets SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0947887824B09FE4001EB830 /* Debug */,
 				0947887924B09FE4001EB830 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0947887A24B09FE4001EB830 /* Build configuration list for PBXNativeTarget "JDA Country PickerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0947887B24B09FE4001EB830 /* Debug */,
-				0947887C24B09FE4001EB830 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0947887D24B09FE4001EB830 /* Build configuration list for PBXNativeTarget "JDA Country PickerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0947887E24B09FE4001EB830 /* Debug */,
-				0947887F24B09FE4001EB830 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
