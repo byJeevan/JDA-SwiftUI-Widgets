@@ -1,13 +1,16 @@
 # JDAWidgets_SwiftUI #
 SwiftUI components for day-to-day iOS Dev.
 
+### Environment
+> Xcode 13, iOS 14.0+, Swift 5.0, SwiftUI
+
 ### Ready with Widgets ###
 
-- 1. **Dropdown**: Simple dropdown shown when tap event.
-- 2. **Country** Picker: Dropdown will be shown along with country flags (offline). This is packed as bundle and works for offline usage.
-- 3. **Floating** Button: Floating Button which will reveal with more buttons when tapped.
-- 4. **Expandable** (Accordion) List: List that can expand or collapse.
-- 5. **Basic Activity Indicator**: Simplest Activity indicator for SwiftUI.
+1. **Dropdown**: Simple dropdown shown when tap event.
+2. **Country** Picker: Dropdown will be shown along with country flags (offline). This is packed as bundle and works for offline usage.
+3. **Floating** Button: Floating Button which will reveal with more buttons when tapped.
+4. **Expandable** (Accordion) List: List that can expand or collapse.
+5. **Basic Activity Indicator**: Simplest Activity indicator for SwiftUI.
 
 ##### ... & More under development 
 
