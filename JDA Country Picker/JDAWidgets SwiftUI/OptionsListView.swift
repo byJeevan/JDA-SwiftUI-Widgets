@@ -20,7 +20,9 @@ struct OptionsListView: View {
         WidgetOptions(id: 1, shortName: "Dropdown", description: "Simple dropdown shown when "),
         WidgetOptions(id: 2, shortName: "Country Picker", description: "Dropdown will be shown along with country flags. This is packed as bundle and works for offline usage."),
         WidgetOptions(id: 3, shortName: "Floating Button", description: "Floating Button which will reveal with more buttons when tapped."),
-        WidgetOptions(id: 4, shortName: "Expandable (Accordion) List", description: "List that can expand or collapse.")
+        WidgetOptions(id: 4, shortName: "Expandable (Accordion) List", description: "List that can expand or collapse."),
+        WidgetOptions(id: 5, shortName: "Basic Activity Indicator", description: "List that can expand or collapse.")
+
     ]
      
     @ViewBuilder func WidgetDetail(wOption: WidgetOptions) -> some View {
@@ -33,6 +35,8 @@ struct OptionsListView: View {
             FloatingButton()
         case 4:
             ExpandableList()
+        case 5:
+            BasicActivityIndicator(animationSwitch: true)
         default:
             Text("Widget Not implemented")
         }

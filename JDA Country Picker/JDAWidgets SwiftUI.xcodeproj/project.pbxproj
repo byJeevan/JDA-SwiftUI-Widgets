@@ -18,6 +18,7 @@
 		43294508276E2BB300D8C38D /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43294507276E2BB300D8C38D /* FloatingButton.swift */; };
 		4329450B276E30D600D8C38D /* Dropdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4329450A276E30D600D8C38D /* Dropdown.swift */; };
 		439B9E9E27932B7800B5BBD2 /* ExpandableList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439B9E9D27932B7800B5BBD2 /* ExpandableList.swift */; };
+		439B9EA62793352F00B5BBD2 /* BasicActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439B9EA52793352F00B5BBD2 /* BasicActivityIndicator.swift */; };
 		43DF6220273413DF00BE847B /* OptionsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DF621F273413DF00BE847B /* OptionsListView.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		43294507276E2BB300D8C38D /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
 		4329450A276E30D600D8C38D /* Dropdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dropdown.swift; sourceTree = "<group>"; };
 		439B9E9D27932B7800B5BBD2 /* ExpandableList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableList.swift; sourceTree = "<group>"; };
+		439B9EA52793352F00B5BBD2 /* BasicActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicActivityIndicator.swift; sourceTree = "<group>"; };
 		43DF621F273413DF00BE847B /* OptionsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 				43DF611D2733BDD600BE847B /* 2 Country Picker */,
 				43294506276E2B9A00D8C38D /* 3 Floating Button */,
 				439B9E9C27932B5D00B5BBD2 /* 4 Expandable List */,
+				439B9EA2279334E900B5BBD2 /* 5 Basic Activity Indicator */,
 				0947885024B09FDE001EB830 /* AppDelegate.swift */,
 				0947885224B09FDE001EB830 /* SceneDelegate.swift */,
 				43DF621F273413DF00BE847B /* OptionsListView.swift */,
@@ -113,6 +116,14 @@
 				439B9E9D27932B7800B5BBD2 /* ExpandableList.swift */,
 			);
 			path = "4 Expandable List";
+			sourceTree = "<group>";
+		};
+		439B9EA2279334E900B5BBD2 /* 5 Basic Activity Indicator */ = {
+			isa = PBXGroup;
+			children = (
+				439B9EA52793352F00B5BBD2 /* BasicActivityIndicator.swift */,
+			);
+			path = "5 Basic Activity Indicator";
 			sourceTree = "<group>";
 		};
 		43DF611D2733BDD600BE847B /* 2 Country Picker */ = {
@@ -199,6 +210,7 @@
 			files = (
 				43DF6220273413DF00BE847B /* OptionsListView.swift in Sources */,
 				0947888124B0AE24001EB830 /* CountryPicker.swift in Sources */,
+				439B9EA62793352F00B5BBD2 /* BasicActivityIndicator.swift in Sources */,
 				0947885124B09FDE001EB830 /* AppDelegate.swift in Sources */,
 				0947888324B0CA32001EB830 /* CountryModel.swift in Sources */,
 				0947885324B09FDE001EB830 /* SceneDelegate.swift in Sources */,
