@@ -17,9 +17,10 @@ struct WidgetOptions: Identifiable {
 struct OptionsListView: View {
     
     var options: [WidgetOptions] = [
-        WidgetOptions.init(id: 1, shortName: "Dropdown", description: "Simple dropdown shown when "),
-        WidgetOptions.init(id: 2, shortName: "Country Picker", description: "Dropdown will be shown along with country flags. This is packed as bundle and works for offline usage."),
-        WidgetOptions.init(id: 3, shortName: "Floating Button", description: "Floating Button which will reveal with more buttons when tapped.")
+        WidgetOptions(id: 1, shortName: "Dropdown", description: "Simple dropdown shown when "),
+        WidgetOptions(id: 2, shortName: "Country Picker", description: "Dropdown will be shown along with country flags. This is packed as bundle and works for offline usage."),
+        WidgetOptions(id: 3, shortName: "Floating Button", description: "Floating Button which will reveal with more buttons when tapped."),
+        WidgetOptions(id: 4, shortName: "Expandable (Accordion) List", description: "List that can expand or collapse.")
     ]
      
     @ViewBuilder func WidgetDetail(wOption: WidgetOptions) -> some View {
@@ -30,6 +31,8 @@ struct OptionsListView: View {
             CountryPicker() //FIXIT: Height of dropdown
         case 3:
             FloatingButton()
+        case 4:
+            ExpandableList()
         default:
             Text("Widget Not implemented")
         }
