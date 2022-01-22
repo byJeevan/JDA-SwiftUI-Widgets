@@ -1,5 +1,5 @@
 # JDAWidgets_SwiftUI #
-SwiftUI components for day-to-day iOS Dev.
+SwiftUI components for day-to-day iOS Developer life.
 
 ### Environment
 > Xcode 13, iOS 14.0+, Swift 5.0, SwiftUI
@@ -11,6 +11,7 @@ SwiftUI components for day-to-day iOS Dev.
 3. **Floating** Button: Floating Button which will reveal with more buttons when tapped.
 4. **Expandable** (Accordion) List: List that can expand or collapse.
 5. **Basic Activity Indicator**: Simplest Activity indicator for SwiftUI.
+6. **Tags**: Collection of buttons left alinged and grows vertically. Gives Single/Multi selection options.
 
 ##### ... & More under development 
 
