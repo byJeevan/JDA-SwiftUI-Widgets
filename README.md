@@ -11,7 +11,7 @@ SwiftUI components for day-to-day iOS Developer life.
 3. **Floating** Button: Floating Button which will reveal with more buttons when tapped.
 4. **Expandable** (Accordion) List: List that can expand or collapse.
 5. **Basic Activity Indicator**: Simplest Activity indicator for SwiftUI.
-6. **Tags**: Collection of buttons left alinged and grows vertically. Gives Single/Multi selection options.
+6. **Endless List (Lazy loading)**: List that scrolls infinitely and fetches new content whenever a user reaches the end of the list.
 
 ##### ... & More under development 
 
