@@ -1,4 +1,4 @@
-# JDAWidgets_SwiftUI #
+# JDA-SwiftUI-Widgets #
 SwiftUI components for day-to-day iOS Developer life.
 
 ### Environment
