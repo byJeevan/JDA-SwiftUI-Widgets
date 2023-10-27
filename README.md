@@ -12,6 +12,7 @@ SwiftUI components for day-to-day iOS Developer life.
 4. **Expandable** (Accordion) List: List that can expand or collapse.
 5. **Basic Activity Indicator**: Simplest Activity indicator for SwiftUI.
 6. **Endless List (Lazy loading)**: List that scrolls infinitely and fetches new content whenever a user reaches the end of the list.
+7. **Custom dialog prompt**: Custom dialog that can be easily baked as per the requirements.
 
 ##### ... & More under development 
 
