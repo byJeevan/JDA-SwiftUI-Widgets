@@ -23,7 +23,8 @@ struct OptionsListView: View {
     WidgetOptions(id: 4, shortName: "Expandable (Accordion) List", description: "List that can expand or collapse."),
     WidgetOptions(id: 5, shortName: "Basic Activity Indicator", description: "Simplest activity indicator for SwiftUI."),
     WidgetOptions(id: 6, shortName: "Endless List (Lazy loading)", description: "List that scrolls infinitely and fetches new content whenever a user reaches the end of the list"),
-    WidgetOptions(id: 7, shortName: "Custom Dialog Example", description: "Bake a custom dialog view and toggle visibility with animation from center.")
+    WidgetOptions(id: 7, shortName: "Custom Dialog Example", description: "Bake a custom dialog view and toggle visibility with animation from center."),
+    WidgetOptions(id: 8, shortName: "Star Rating", description: "Star rating widget for all needs.")
   ]
   
   @ViewBuilder func WidgetDetail(wOption: WidgetOptions) -> some View {
@@ -42,6 +43,8 @@ struct OptionsListView: View {
         EndlessList()
       case 7:
         CustomDialogExampleView()
+      case 8:
+        StarRatingDemoView()
         
       default:
         Text("Widget Not implemented")
