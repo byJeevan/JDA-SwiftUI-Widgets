@@ -40,6 +40,7 @@ struct CountryPicker: View {
             
             VStack(spacing: 5){
                 HStack{
+                  
                     selectedFlag
                     
                     Text(selectedCountry.isEmpty ? placeholder : selectedCountry)

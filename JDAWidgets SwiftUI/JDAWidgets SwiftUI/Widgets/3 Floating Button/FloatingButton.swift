@@ -43,8 +43,7 @@ struct FloatingButton: View {
                     .foregroundColor(.green)
                     .rotationEffect(Angle.degrees(isExpanded ? 45 : 0))
             }
-        }
-        .animation(.spring())
+        }.animation(.spring())
         
     }
     
@@ -67,6 +66,7 @@ struct FloatingButton: View {
                         .foregroundColor(.white)
                     
                 }
+                
             }
         }
     }

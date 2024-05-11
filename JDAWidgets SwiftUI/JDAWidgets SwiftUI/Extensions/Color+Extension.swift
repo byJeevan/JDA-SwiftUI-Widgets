@@ -1,5 +1,5 @@
 //
-//  Color+Externsion.swift
+//  Color+Extension.swift
 //  JDAWidgets SwiftUI
 //
 //  Created by Jeevan Rao on 26/01/22.
