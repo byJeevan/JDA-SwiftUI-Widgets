@@ -28,4 +28,5 @@ JDAWidgets_SwiftUI is available under the MIT license. See the LICENSE file for 
 - https://byjeevan.blogspot.com/
 
 ## Support ##
-<a href="https://www.buymeacoffee.com/jeevan" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-white.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/paypalme/Jeevan8082/10)
+
