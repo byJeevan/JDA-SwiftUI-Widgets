@@ -3,10 +3,10 @@
 
 ### Environment
 > Xcode 14.3
-> Minimum Deployment iOS 15.0
-> Written in Swift 5.0, SwiftUI 
+> Minimum Deployment iOS 15.0+
+> Written in Swift 5.0, SwiftUI 3.0 
 
-### Ready with Widgets ###
+### Available Widgets ###
 1. **Dropdown**: Simple dropdown shown when tap event.
 2. **Country** Picker: Dropdown will be shown along with country flags (offline). This is packed as bundle and works for offline usage.
 3. **Floating** Button: Floating Button which will reveal with more buttons when tapped.
@@ -17,11 +17,10 @@
 8. **Star Rating**: Star rating widget for all needs.
 9. **Tags Widget**: Group of Tags takes action and alignment can be controlled to Left/Center/Right.
 
-
 and more.
 
 ## Demo ##
-![JDA Country Picker Demo](https://github.com/byJeevan/JDAWidgets_SwiftUI/blob/master/demo.gif)
+![JDA-SwiftUI-Widgets-demo](https://github.com/byJeevan/JDA-SwiftUI-Widgets/assets/7850655/3932dbec-c983-4447-a8f5-73169ad9f325)
 
 ## License ##
 JDAWidgets_SwiftUI is available under the MIT license. See the LICENSE file for more info.
