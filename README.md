@@ -1,10 +1,10 @@
 # JDA-SwiftUI-Widgets #
-**SwiftUI components for day-to-day life of iOS Developer**
+**SwiftUI components for day-to-day life of iOS Developer 💻**
 
 ### Environment
-> Xcode 14.3
-> Minimum Deployment iOS 15.0+
-> Written in Swift 5.0, SwiftUI 3.0 
+- Xcode 14.3
+- Minimum Deployment iOS 15.0+
+- Written in Swift 5.0, SwiftUI 3.0 
 
 ### Available Widgets ###
 1. **Dropdown**: Simple dropdown shown when tap event.
