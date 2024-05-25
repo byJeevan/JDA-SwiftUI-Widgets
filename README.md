@@ -14,6 +14,10 @@
 5. **Basic Activity Indicator**: Simplest Activity indicator for SwiftUI.
 6. **Endless List (Lazy loading)**: List that scrolls infinitely and fetches new content whenever a user reaches the end of the list.
 7. **Custom dialog prompt**: Custom dialog that can be easily baked as per the requirements.
+8. **Star Rating**: Star rating widget for all needs.
+9. **Tags Widget**: Group of Tags takes action and alignment can be controlled to Left/Center/Right.
+
+
 and more.
 
 ## Demo ##
