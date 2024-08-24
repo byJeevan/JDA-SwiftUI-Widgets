@@ -78,8 +78,10 @@ struct BottomToTopSheetContentView: View {
 }
 
 
-#Preview {
-  BottomToTopSheetView()
+struct BottomToTopSheetView_Previews: PreviewProvider {
+  static var previews: some View {
+    BottomToTopSheetView()
+  }
 }
 
 
