@@ -25,6 +25,7 @@
 		43812C842C024A40005FDB24 /* UIScreen+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43812C832C024A40005FDB24 /* UIScreen+Extension.swift */; };
 		43812C862C024A7C005FDB24 /* TagsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43812C852C024A7C005FDB24 /* TagsContentView.swift */; };
 		43812C882C024A91005FDB24 /* TagsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43812C872C024A91005FDB24 /* TagsViewModel.swift */; };
+		438457712C7A482400886D03 /* BottomToTopSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438457702C7A482400886D03 /* BottomToTopSheetView.swift */; };
 		439B9E9E27932B7800B5BBD2 /* ExpandableList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439B9E9D27932B7800B5BBD2 /* ExpandableList.swift */; };
 		439B9EA62793352F00B5BBD2 /* BasicActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439B9EA52793352F00B5BBD2 /* BasicActivityIndicator.swift */; };
 		43AB64862AEB815900744345 /* CustomDialogExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AB64852AEB815900744345 /* CustomDialogExampleView.swift */; };
@@ -55,6 +56,7 @@
 		43812C832C024A40005FDB24 /* UIScreen+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+Extension.swift"; sourceTree = "<group>"; };
 		43812C852C024A7C005FDB24 /* TagsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsContentView.swift; sourceTree = "<group>"; };
 		43812C872C024A91005FDB24 /* TagsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsViewModel.swift; sourceTree = "<group>"; };
+		438457702C7A482400886D03 /* BottomToTopSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomToTopSheetView.swift; sourceTree = "<group>"; };
 		439B9E9D27932B7800B5BBD2 /* ExpandableList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableList.swift; sourceTree = "<group>"; };
 		439B9EA52793352F00B5BBD2 /* BasicActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicActivityIndicator.swift; sourceTree = "<group>"; };
 		43AB64852AEB815900744345 /* CustomDialogExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDialogExampleView.swift; sourceTree = "<group>"; };
@@ -159,6 +161,14 @@
 			path = Utility;
 			sourceTree = "<group>";
 		};
+		4384576F2C7A477D00886D03 /* 10. BottomToTopSheet */ = {
+			isa = PBXGroup;
+			children = (
+				438457702C7A482400886D03 /* BottomToTopSheetView.swift */,
+			);
+			path = "10. BottomToTopSheet";
+			sourceTree = "<group>";
+		};
 		439B9E9C27932B5D00B5BBD2 /* 4 Expandable List */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +197,7 @@
 				43AB64822AEB811700744345 /* 7. Custom Dialog */,
 				43D386FA2BEFEAC700ECEB06 /* 8. Star Rating View */,
 				43D386FD2BEFEE2300ECEB06 /* 9. Tags */,
+				4384576F2C7A477D00886D03 /* 10. BottomToTopSheet */,
 			);
 			path = Widgets;
 			sourceTree = "<group>";
@@ -318,6 +329,7 @@
 				0947885324B09FDE001EB830 /* SceneDelegate.swift in Sources */,
 				43294508276E2BB300D8C38D /* FloatingButton.swift in Sources */,
 				4333BF4E27A1B31600AEDA01 /* ListItem.swift in Sources */,
+				438457712C7A482400886D03 /* BottomToTopSheetView.swift in Sources */,
 				43812C842C024A40005FDB24 /* UIScreen+Extension.swift in Sources */,
 				4329450B276E30D600D8C38D /* Dropdown.swift in Sources */,
 				439B9E9E27932B7800B5BBD2 /* ExpandableList.swift in Sources */,

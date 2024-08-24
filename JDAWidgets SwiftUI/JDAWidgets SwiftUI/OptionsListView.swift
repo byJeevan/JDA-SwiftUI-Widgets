@@ -25,7 +25,8 @@ struct OptionsListView: View {
     WidgetOptions(id: 6, shortName: "Endless List (Lazy loading)", description: "List that scrolls infinitely and fetches new content whenever a user reaches the end of the list"),
     WidgetOptions(id: 7, shortName: "Custom Dialog Example", description: "Bake a custom dialog view and toggle visibility with animation from center."),
     WidgetOptions(id: 8, shortName: "Star Rating", description: "Star rating widget for all needs."),
-    WidgetOptions(id: 9, shortName: "Tags", description: "Group of Tags takes action and alignment can be controlled to Left/Center/Right")
+    WidgetOptions(id: 9, shortName: "Tags", description: "Group of Tags takes action and alignment can be controlled to Left/Center/Right"),
+    WidgetOptions(id: 10, shortName: "Bottom To Top sheet", description: "Simple bottom to top sheet appears with animation.")
   ]
   
   @ViewBuilder func WidgetDetail(wOption: WidgetOptions) -> some View {
@@ -48,6 +49,9 @@ struct OptionsListView: View {
         StarRatingDemoView()
       case 9:
         TagsDemoView()
+        
+      case 10:
+        BottomToTopSheetView()
         
       default:
         Text("Widget Not implemented")
