@@ -59,7 +59,12 @@ let options: [WidgetOptions] = [
   WidgetOptions(id: 10,
                 shortName: "Bottom To Top sheet",
                 description: "Simple bottom to top sheet appears with animation.",
-                view: AnyView(BottomToTopSheetView()))
+                view: AnyView(BottomToTopSheetView())),
+  
+  WidgetOptions(id: 11,
+                shortName: "Before After image slider",
+                description: "Drag the slider to reveal the 'After' image overlapped with 'Before' image.",
+                view: AnyView(BeforeAfterImageSliderDemoView()))
 ]
 
 

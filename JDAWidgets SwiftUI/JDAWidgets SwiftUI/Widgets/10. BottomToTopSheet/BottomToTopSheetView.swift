@@ -16,7 +16,6 @@ struct BottomToTopSheetView: View {
 
   @State private var startBgAnimation = false
 
-
   var body: some View {
 
     ZStack {
