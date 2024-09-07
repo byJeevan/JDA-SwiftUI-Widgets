@@ -30,6 +30,7 @@
 		439B9EA62793352F00B5BBD2 /* BasicActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439B9EA52793352F00B5BBD2 /* BasicActivityIndicator.swift */; };
 		43AB64862AEB815900744345 /* CustomDialogExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AB64852AEB815900744345 /* CustomDialogExampleView.swift */; };
 		43AB64882AEB816000744345 /* CustomDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AB64872AEB816000744345 /* CustomDialogView.swift */; };
+		43C142C12C8C5417001A609D /* ScrollableViewWithStickyLeftSideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C142C02C8C5417001A609D /* ScrollableViewWithStickyLeftSideView.swift */; };
 		43D386FC2BEFEC5000ECEB06 /* StarRatingDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D386FB2BEFEC5000ECEB06 /* StarRatingDemoView.swift */; };
 		43D386FF2BEFEE8600ECEB06 /* TagsDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D386FE2BEFEE8600ECEB06 /* TagsDemoView.swift */; };
 		43DF6220273413DF00BE847B /* OptionsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DF621F273413DF00BE847B /* OptionsListView.swift */; };
@@ -63,6 +64,7 @@
 		439B9EA52793352F00B5BBD2 /* BasicActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicActivityIndicator.swift; sourceTree = "<group>"; };
 		43AB64852AEB815900744345 /* CustomDialogExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDialogExampleView.swift; sourceTree = "<group>"; };
 		43AB64872AEB816000744345 /* CustomDialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDialogView.swift; sourceTree = "<group>"; };
+		43C142C02C8C5417001A609D /* ScrollableViewWithStickyLeftSideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableViewWithStickyLeftSideView.swift; sourceTree = "<group>"; };
 		43D386FB2BEFEC5000ECEB06 /* StarRatingDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRatingDemoView.swift; sourceTree = "<group>"; };
 		43D386FE2BEFEE8600ECEB06 /* TagsDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsDemoView.swift; sourceTree = "<group>"; };
 		43DF621F273413DF00BE847B /* OptionsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsListView.swift; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 				43D386FD2BEFEE2300ECEB06 /* 9. Tags */,
 				4384576F2C7A477D00886D03 /* 10. BottomToTopSheet */,
 				43FF3D8F2C8378B1000B9BE1 /* 11. BeforeAfter Image Slider */,
+				43C142BF2C8C53CA001A609D /* 12. Sticky Left Side View */,
 			);
 			path = Widgets;
 			sourceTree = "<group>";
@@ -214,6 +217,14 @@
 				43AB64872AEB816000744345 /* CustomDialogView.swift */,
 			);
 			path = "7. Custom Dialog";
+			sourceTree = "<group>";
+		};
+		43C142BF2C8C53CA001A609D /* 12. Sticky Left Side View */ = {
+			isa = PBXGroup;
+			children = (
+				43C142C02C8C5417001A609D /* ScrollableViewWithStickyLeftSideView.swift */,
+			);
+			path = "12. Sticky Left Side View";
 			sourceTree = "<group>";
 		};
 		43D386FA2BEFEAC700ECEB06 /* 8. Star Rating View */ = {
@@ -330,6 +341,7 @@
 				43DF6220273413DF00BE847B /* OptionsListView.swift in Sources */,
 				0947888124B0AE24001EB830 /* CountryPicker.swift in Sources */,
 				4333BF5027A1B33400AEDA01 /* EndlessListViewModel.swift in Sources */,
+				43C142C12C8C5417001A609D /* ScrollableViewWithStickyLeftSideView.swift in Sources */,
 				43812C862C024A7C005FDB24 /* TagsContentView.swift in Sources */,
 				439B9EA62793352F00B5BBD2 /* BasicActivityIndicator.swift in Sources */,
 				0947885124B09FDE001EB830 /* AppDelegate.swift in Sources */,

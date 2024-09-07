@@ -64,7 +64,12 @@ let options: [WidgetOptions] = [
   WidgetOptions(id: 11,
                 shortName: "Before After image slider",
                 description: "Drag the slider to reveal the 'After' image overlapped with 'Before' image.",
-                view: AnyView(BeforeAfterImageSliderDemoView()))
+                view: AnyView(BeforeAfterImageSliderDemoView())),
+  
+  WidgetOptions(id: 12,
+                shortName: "Scrollable view with Sticky left side view",
+                description: "A sticky left side view inside a scroll view - which can scroll until it reaches the top most edge of screen. Then it halts and remaining page contents can be scrollable till end. This is best suited iPad layout.",
+                view: AnyView(ScrollableViewWithStickyLeftSideView()))
 ]
 
 
