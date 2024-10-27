@@ -8,7 +8,6 @@
 
 import SwiftUI
 
-
 let options: [WidgetOptions] = [
   
   WidgetOptions(id: 1,
