@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04AF14EB2CDF47FF000ECA2B /* SlidingTabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF14E92CDF47FF000ECA2B /* SlidingTabsView.swift */; };
+		04AF14EC2CDF47FF000ECA2B /* SlidingTabsDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF14E82CDF47FF000ECA2B /* SlidingTabsDemoView.swift */; };
+		04AF14EE2CDF6C89000ECA2B /* SlidingTabsViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF14ED2CDF6C7E000ECA2B /* SlidingTabsViewItem.swift */; };
 		0947885124B09FDE001EB830 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0947885024B09FDE001EB830 /* AppDelegate.swift */; };
 		0947885324B09FDE001EB830 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0947885224B09FDE001EB830 /* SceneDelegate.swift */; };
 		0947885724B09FE4001EB830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0947885624B09FE4001EB830 /* Assets.xcassets */; };
@@ -39,6 +42,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04AF14E82CDF47FF000ECA2B /* SlidingTabsDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingTabsDemoView.swift; sourceTree = "<group>"; };
+		04AF14E92CDF47FF000ECA2B /* SlidingTabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingTabsView.swift; sourceTree = "<group>"; };
+		04AF14ED2CDF6C7E000ECA2B /* SlidingTabsViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingTabsViewItem.swift; sourceTree = "<group>"; };
 		0947884D24B09FDE001EB830 /* JDAWidgets SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JDAWidgets SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0947885024B09FDE001EB830 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0947885224B09FDE001EB830 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +89,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04AF14EA2CDF47FF000ECA2B /* 13. Slidable Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				04AF14E82CDF47FF000ECA2B /* SlidingTabsDemoView.swift */,
+				04AF14E92CDF47FF000ECA2B /* SlidingTabsView.swift */,
+				04AF14ED2CDF6C7E000ECA2B /* SlidingTabsViewItem.swift */,
+			);
+			path = "13. Slidable Tabs";
+			sourceTree = "<group>";
+		};
 		0947884424B09FDE001EB830 = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +222,7 @@
 				4384576F2C7A477D00886D03 /* 10. BottomToTopSheet */,
 				43FF3D8F2C8378B1000B9BE1 /* 11. BeforeAfter Image Slider */,
 				43C142BF2C8C53CA001A609D /* 12. Sticky Left Side View */,
+				04AF14EA2CDF47FF000ECA2B /* 13. Slidable Tabs */,
 			);
 			path = Widgets;
 			sourceTree = "<group>";
@@ -337,6 +354,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				43AB64882AEB816000744345 /* CustomDialogView.swift in Sources */,
+				04AF14EB2CDF47FF000ECA2B /* SlidingTabsView.swift in Sources */,
+				04AF14EC2CDF47FF000ECA2B /* SlidingTabsDemoView.swift in Sources */,
 				4333BF4927A1930400AEDA01 /* Utility.swift in Sources */,
 				43DF6220273413DF00BE847B /* OptionsListView.swift in Sources */,
 				0947888124B0AE24001EB830 /* CountryPicker.swift in Sources */,
@@ -352,6 +371,7 @@
 				0947888324B0CA32001EB830 /* CountryModel.swift in Sources */,
 				43D386FF2BEFEE8600ECEB06 /* TagsDemoView.swift in Sources */,
 				43AB64862AEB815900744345 /* CustomDialogExampleView.swift in Sources */,
+				04AF14EE2CDF6C89000ECA2B /* SlidingTabsViewItem.swift in Sources */,
 				43D386FC2BEFEC5000ECEB06 /* StarRatingDemoView.swift in Sources */,
 				0947885324B09FDE001EB830 /* SceneDelegate.swift in Sources */,
 				43294508276E2BB300D8C38D /* FloatingButton.swift in Sources */,

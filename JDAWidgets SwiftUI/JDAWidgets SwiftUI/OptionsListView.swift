@@ -68,7 +68,12 @@ let options: [WidgetOptions] = [
   WidgetOptions(id: 12,
                 shortName: "Scrollable view with Sticky left side view",
                 description: "A sticky left side view inside a scroll view - which can scroll until it reaches the top most edge of screen. Then it halts and remaining page contents can be scrollable till end. This is best suited iPad layout.",
-                view: AnyView(ScrollableViewWithStickyLeftSideView()))
+                view: AnyView(ScrollableViewWithStickyLeftSideView())),
+  
+  WidgetOptions(id: 13,
+                shortName: "Sliding tabs to switch pages",
+                description: "Tabs on top of the page to switch the child pages by selecting tab item or simply sliding left/right to switch the child page.",
+                view: AnyView(SlidingTabsDemoView()))
 ]
 
 
