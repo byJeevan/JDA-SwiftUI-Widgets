@@ -8,23 +8,6 @@
 
 import SwiftUI
 
-// MARK: -  Widget
-struct StarRatingView: View {
-  @Binding var rating: Int
-  
-  var body: some View {
-    HStack {
-      ForEach(1...5, id: \.self) { index in
-        Image(systemName: index <= self.rating ? "star.fill" : "star")
-          .foregroundColor(index <= self.rating ? .yellow : .gray)
-          .onTapGesture {
-            self.rating = index
-          }
-      }
-    }
-  }
-}
-
 // MARK: - Example Usage
 struct StarRatingDemoView: View {
   @State private var rating = 0
