@@ -73,7 +73,12 @@ let options: [WidgetOptions] = [
   WidgetOptions(id: 13,
                 shortName: "Sliding tabs to switch pages",
                 description: "Tabs on top of the page to switch the child pages by selecting tab item or simply sliding left/right to switch the child page.",
-                view: AnyView(SlidingTabsDemoView()))
+                view: AnyView(SlidingTabsDemoView())),
+  
+  WidgetOptions(id: 14,
+                shortName: "Tinder like swipe view",
+                description: "Stack of cards with a swipe-like feature similar to that of Tinder",
+                view: AnyView(TinderSwipeView()))
 ]
 
 

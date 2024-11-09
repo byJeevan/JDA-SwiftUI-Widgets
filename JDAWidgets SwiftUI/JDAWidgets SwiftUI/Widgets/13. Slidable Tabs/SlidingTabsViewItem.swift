@@ -5,6 +5,7 @@
 //  Created by Mac on 09/11/24.
 //  Copyright © 2024 JDA. All rights reserved.
 //
+import SwiftUI
 
 struct SlidingTabsViewItem: View {
   @Binding var currentTab: Int

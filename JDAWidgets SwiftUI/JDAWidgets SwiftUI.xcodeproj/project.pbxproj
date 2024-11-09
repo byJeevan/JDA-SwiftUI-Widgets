@@ -11,6 +11,7 @@
 		04AF14EC2CDF47FF000ECA2B /* SlidingTabsDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF14E82CDF47FF000ECA2B /* SlidingTabsDemoView.swift */; };
 		04AF14EE2CDF6C89000ECA2B /* SlidingTabsViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF14ED2CDF6C7E000ECA2B /* SlidingTabsViewItem.swift */; };
 		04AF14F02CDF707D000ECA2B /* StarRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF14EF2CDF707D000ECA2B /* StarRatingView.swift */; };
+		04AF14F22CDF77A7000ECA2B /* TinderSwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF14F12CDF77A7000ECA2B /* TinderSwipeView.swift */; };
 		0947885124B09FDE001EB830 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0947885024B09FDE001EB830 /* AppDelegate.swift */; };
 		0947885324B09FDE001EB830 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0947885224B09FDE001EB830 /* SceneDelegate.swift */; };
 		0947885724B09FE4001EB830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0947885624B09FE4001EB830 /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 		04AF14E92CDF47FF000ECA2B /* SlidingTabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingTabsView.swift; sourceTree = "<group>"; };
 		04AF14ED2CDF6C7E000ECA2B /* SlidingTabsViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingTabsViewItem.swift; sourceTree = "<group>"; };
 		04AF14EF2CDF707D000ECA2B /* StarRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRatingView.swift; sourceTree = "<group>"; };
+		04AF14F12CDF77A7000ECA2B /* TinderSwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderSwipeView.swift; sourceTree = "<group>"; };
 		0947884D24B09FDE001EB830 /* JDAWidgets SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JDAWidgets SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0947885024B09FDE001EB830 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0947885224B09FDE001EB830 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +101,14 @@
 				04AF14ED2CDF6C7E000ECA2B /* SlidingTabsViewItem.swift */,
 			);
 			path = "13. Slidable Tabs";
+			sourceTree = "<group>";
+		};
+		04AF14F52CDF7863000ECA2B /* 14. Tinder Swipe View */ = {
+			isa = PBXGroup;
+			children = (
+				04AF14F12CDF77A7000ECA2B /* TinderSwipeView.swift */,
+			);
+			path = "14. Tinder Swipe View";
 			sourceTree = "<group>";
 		};
 		0947884424B09FDE001EB830 = {
@@ -225,6 +235,7 @@
 				43FF3D8F2C8378B1000B9BE1 /* 11. BeforeAfter Image Slider */,
 				43C142BF2C8C53CA001A609D /* 12. Sticky Left Side View */,
 				04AF14EA2CDF47FF000ECA2B /* 13. Slidable Tabs */,
+				04AF14F52CDF7863000ECA2B /* 14. Tinder Swipe View */,
 			);
 			path = Widgets;
 			sourceTree = "<group>";
@@ -369,6 +380,7 @@
 				0947885124B09FDE001EB830 /* AppDelegate.swift in Sources */,
 				4333BF4627A1913300AEDA01 /* EndlessList.swift in Sources */,
 				4333BF4C27A1B2F400AEDA01 /* Color+Extension.swift in Sources */,
+				04AF14F22CDF77A7000ECA2B /* TinderSwipeView.swift in Sources */,
 				43FF3D912C8379AD000B9BE1 /* BeforeAfterImageSliderDemoView.swift in Sources */,
 				43812C882C024A91005FDB24 /* TagsViewModel.swift in Sources */,
 				0947888324B0CA32001EB830 /* CountryModel.swift in Sources */,
