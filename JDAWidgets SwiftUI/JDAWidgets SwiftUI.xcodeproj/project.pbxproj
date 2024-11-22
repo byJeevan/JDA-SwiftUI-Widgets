@@ -12,6 +12,11 @@
 		04AF14EE2CDF6C89000ECA2B /* SlidingTabsViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF14ED2CDF6C7E000ECA2B /* SlidingTabsViewItem.swift */; };
 		04AF14F02CDF707D000ECA2B /* StarRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF14EF2CDF707D000ECA2B /* StarRatingView.swift */; };
 		04AF14F22CDF77A7000ECA2B /* TinderSwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF14F12CDF77A7000ECA2B /* TinderSwipeView.swift */; };
+		04C208AF2CF067100003A27E /* TickAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C208AE2CF067100003A27E /* TickAnimationView.swift */; };
+		04C208B22CF06CD20003A27E /* TickContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C208B12CF06CD20003A27E /* TickContentView.swift */; };
+		04C208B52CF06F2B0003A27E /* HomeLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C208B42CF06F2B0003A27E /* HomeLayout.swift */; };
+		04C208B82CF070E00003A27E /* RichTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C208B72CF070E00003A27E /* RichTextView.swift */; };
+		04C208BA2CF0711F0003A27E /* RichTextDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C208B92CF0711F0003A27E /* RichTextDemoView.swift */; };
 		0947885124B09FDE001EB830 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0947885024B09FDE001EB830 /* AppDelegate.swift */; };
 		0947885324B09FDE001EB830 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0947885224B09FDE001EB830 /* SceneDelegate.swift */; };
 		0947885724B09FE4001EB830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0947885624B09FE4001EB830 /* Assets.xcassets */; };
@@ -49,6 +54,11 @@
 		04AF14ED2CDF6C7E000ECA2B /* SlidingTabsViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingTabsViewItem.swift; sourceTree = "<group>"; };
 		04AF14EF2CDF707D000ECA2B /* StarRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRatingView.swift; sourceTree = "<group>"; };
 		04AF14F12CDF77A7000ECA2B /* TinderSwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderSwipeView.swift; sourceTree = "<group>"; };
+		04C208AE2CF067100003A27E /* TickAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickAnimationView.swift; sourceTree = "<group>"; };
+		04C208B12CF06CD20003A27E /* TickContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickContentView.swift; sourceTree = "<group>"; };
+		04C208B42CF06F2B0003A27E /* HomeLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLayout.swift; sourceTree = "<group>"; };
+		04C208B72CF070E00003A27E /* RichTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichTextView.swift; sourceTree = "<group>"; };
+		04C208B92CF0711F0003A27E /* RichTextDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichTextDemoView.swift; sourceTree = "<group>"; };
 		0947884D24B09FDE001EB830 /* JDAWidgets SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JDAWidgets SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0947885024B09FDE001EB830 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0947885224B09FDE001EB830 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +119,32 @@
 				04AF14F12CDF77A7000ECA2B /* TinderSwipeView.swift */,
 			);
 			path = "14. Tinder Swipe View";
+			sourceTree = "<group>";
+		};
+		04C208B02CF06A290003A27E /* 15. Tick Animation */ = {
+			isa = PBXGroup;
+			children = (
+				04C208AE2CF067100003A27E /* TickAnimationView.swift */,
+				04C208B12CF06CD20003A27E /* TickContentView.swift */,
+			);
+			path = "15. Tick Animation";
+			sourceTree = "<group>";
+		};
+		04C208B32CF06D080003A27E /* 16. Home Layout */ = {
+			isa = PBXGroup;
+			children = (
+				04C208B42CF06F2B0003A27E /* HomeLayout.swift */,
+			);
+			path = "16. Home Layout";
+			sourceTree = "<group>";
+		};
+		04C208B62CF070C80003A27E /* 17 Rich Text */ = {
+			isa = PBXGroup;
+			children = (
+				04C208B72CF070E00003A27E /* RichTextView.swift */,
+				04C208B92CF0711F0003A27E /* RichTextDemoView.swift */,
+			);
+			path = "17 Rich Text";
 			sourceTree = "<group>";
 		};
 		0947884424B09FDE001EB830 = {
@@ -236,6 +272,9 @@
 				43C142BF2C8C53CA001A609D /* 12. Sticky Left Side View */,
 				04AF14EA2CDF47FF000ECA2B /* 13. Slidable Tabs */,
 				04AF14F52CDF7863000ECA2B /* 14. Tinder Swipe View */,
+				04C208B02CF06A290003A27E /* 15. Tick Animation */,
+				04C208B32CF06D080003A27E /* 16. Home Layout */,
+				04C208B62CF070C80003A27E /* 17 Rich Text */,
 			);
 			path = Widgets;
 			sourceTree = "<group>";
@@ -369,6 +408,7 @@
 			files = (
 				43AB64882AEB816000744345 /* CustomDialogView.swift in Sources */,
 				04AF14EB2CDF47FF000ECA2B /* SlidingTabsView.swift in Sources */,
+				04C208AF2CF067100003A27E /* TickAnimationView.swift in Sources */,
 				04AF14EC2CDF47FF000ECA2B /* SlidingTabsDemoView.swift in Sources */,
 				4333BF4927A1930400AEDA01 /* Utility.swift in Sources */,
 				43DF6220273413DF00BE847B /* OptionsListView.swift in Sources */,
@@ -377,12 +417,14 @@
 				43C142C12C8C5417001A609D /* ScrollableViewWithStickyLeftSideView.swift in Sources */,
 				43812C862C024A7C005FDB24 /* TagsContentView.swift in Sources */,
 				439B9EA62793352F00B5BBD2 /* BasicActivityIndicator.swift in Sources */,
+				04C208BA2CF0711F0003A27E /* RichTextDemoView.swift in Sources */,
 				0947885124B09FDE001EB830 /* AppDelegate.swift in Sources */,
 				4333BF4627A1913300AEDA01 /* EndlessList.swift in Sources */,
 				4333BF4C27A1B2F400AEDA01 /* Color+Extension.swift in Sources */,
 				04AF14F22CDF77A7000ECA2B /* TinderSwipeView.swift in Sources */,
 				43FF3D912C8379AD000B9BE1 /* BeforeAfterImageSliderDemoView.swift in Sources */,
 				43812C882C024A91005FDB24 /* TagsViewModel.swift in Sources */,
+				04C208B22CF06CD20003A27E /* TickContentView.swift in Sources */,
 				0947888324B0CA32001EB830 /* CountryModel.swift in Sources */,
 				43D386FF2BEFEE8600ECEB06 /* TagsDemoView.swift in Sources */,
 				43AB64862AEB815900744345 /* CustomDialogExampleView.swift in Sources */,
@@ -390,7 +432,9 @@
 				43D386FC2BEFEC5000ECEB06 /* StarRatingDemoView.swift in Sources */,
 				0947885324B09FDE001EB830 /* SceneDelegate.swift in Sources */,
 				43294508276E2BB300D8C38D /* FloatingButton.swift in Sources */,
+				04C208B52CF06F2B0003A27E /* HomeLayout.swift in Sources */,
 				4333BF4E27A1B31600AEDA01 /* ListItem.swift in Sources */,
+				04C208B82CF070E00003A27E /* RichTextView.swift in Sources */,
 				438457712C7A482400886D03 /* BottomToTopSheetView.swift in Sources */,
 				43812C842C024A40005FDB24 /* UIScreen+Extension.swift in Sources */,
 				4329450B276E30D600D8C38D /* Dropdown.swift in Sources */,

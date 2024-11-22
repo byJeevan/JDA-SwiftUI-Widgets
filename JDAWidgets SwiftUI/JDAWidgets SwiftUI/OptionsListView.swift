@@ -78,7 +78,22 @@ let options: [WidgetOptions] = [
   WidgetOptions(id: 14,
                 shortName: "Tinder like swipe view",
                 description: "Stack of cards with a swipe-like feature similar to that of Tinder",
-                view: AnyView(TinderSwipeView()))
+                view: AnyView(TinderSwipeView())),
+  
+  WidgetOptions(id: 15,
+                shortName: "Tick mark animation",
+                description: "A complex tick mark animation which is popular is world wide apps",
+                view: AnyView(TickContentView())),
+  
+  WidgetOptions(id: 16,
+                shortName: "Home layout",
+                description: "A layout having all basic building blocks of a home page that we can see in common apps.",
+                view: AnyView(HomeLayout())),
+
+  WidgetOptions(id: 17,
+                shortName: "Rich Text view",
+                description: "Handles other than normal text like HTML, Markdown as given input.",
+                view: AnyView(RichTextDemoView()))
 ]
 
 
