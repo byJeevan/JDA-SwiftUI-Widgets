@@ -93,7 +93,12 @@ let options: [WidgetOptions] = [
   WidgetOptions(id: 17,
                 shortName: "Rich Text view",
                 description: "Handles other than normal text like HTML, Markdown as given input.",
-                view: AnyView(RichTextDemoView()))
+                view: AnyView(RichTextDemoView())),
+  
+  WidgetOptions(id: 18,
+                shortName: "Toast Message view",
+                description: "Small sized alert message view appears for a while without losing focus of user on main content of app.",
+                view: AnyView(ToastMessageDemoView()))
 ]
 
 

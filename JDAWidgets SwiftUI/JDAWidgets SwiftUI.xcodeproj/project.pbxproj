@@ -17,6 +17,12 @@
 		04C208B52CF06F2B0003A27E /* HomeLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C208B42CF06F2B0003A27E /* HomeLayout.swift */; };
 		04C208B82CF070E00003A27E /* RichTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C208B72CF070E00003A27E /* RichTextView.swift */; };
 		04C208BA2CF0711F0003A27E /* RichTextDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C208B92CF0711F0003A27E /* RichTextDemoView.swift */; };
+		04E60F812CFB21CC00AA4BC6 /* ToastMessageDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E60F802CFB21CC00AA4BC6 /* ToastMessageDemoView.swift */; };
+		04E60F862CFB221600AA4BC6 /* ToastStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E60F842CFB221600AA4BC6 /* ToastStyle.swift */; };
+		04E60F872CFB221600AA4BC6 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E60F852CFB221600AA4BC6 /* ToastView.swift */; };
+		04E60F882CFB221600AA4BC6 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E60F822CFB221600AA4BC6 /* Toast.swift */; };
+		04E60F892CFB221600AA4BC6 /* ToastModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E60F832CFB221600AA4BC6 /* ToastModifier.swift */; };
+		04E60F8B2CFB237600AA4BC6 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E60F8A2CFB237600AA4BC6 /* View+Extension.swift */; };
 		0947885124B09FDE001EB830 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0947885024B09FDE001EB830 /* AppDelegate.swift */; };
 		0947885324B09FDE001EB830 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0947885224B09FDE001EB830 /* SceneDelegate.swift */; };
 		0947885724B09FE4001EB830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0947885624B09FE4001EB830 /* Assets.xcassets */; };
@@ -59,6 +65,12 @@
 		04C208B42CF06F2B0003A27E /* HomeLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLayout.swift; sourceTree = "<group>"; };
 		04C208B72CF070E00003A27E /* RichTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichTextView.swift; sourceTree = "<group>"; };
 		04C208B92CF0711F0003A27E /* RichTextDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichTextDemoView.swift; sourceTree = "<group>"; };
+		04E60F802CFB21CC00AA4BC6 /* ToastMessageDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastMessageDemoView.swift; sourceTree = "<group>"; };
+		04E60F822CFB221600AA4BC6 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		04E60F832CFB221600AA4BC6 /* ToastModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastModifier.swift; sourceTree = "<group>"; };
+		04E60F842CFB221600AA4BC6 /* ToastStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastStyle.swift; sourceTree = "<group>"; };
+		04E60F852CFB221600AA4BC6 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		04E60F8A2CFB237600AA4BC6 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		0947884D24B09FDE001EB830 /* JDAWidgets SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JDAWidgets SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0947885024B09FDE001EB830 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0947885224B09FDE001EB830 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -145,6 +157,19 @@
 				04C208B92CF0711F0003A27E /* RichTextDemoView.swift */,
 			);
 			path = "17 Rich Text";
+			sourceTree = "<group>";
+		};
+		04E60F7F2CFB216300AA4BC6 /* 18 Toast View */ = {
+			isa = PBXGroup;
+			children = (
+				04E60F802CFB21CC00AA4BC6 /* ToastMessageDemoView.swift */,
+				04E60F822CFB221600AA4BC6 /* Toast.swift */,
+				04E60F832CFB221600AA4BC6 /* ToastModifier.swift */,
+				04E60F842CFB221600AA4BC6 /* ToastStyle.swift */,
+				04E60F852CFB221600AA4BC6 /* ToastView.swift */,
+				04E60F8A2CFB237600AA4BC6 /* View+Extension.swift */,
+			);
+			path = "18 Toast View";
 			sourceTree = "<group>";
 		};
 		0947884424B09FDE001EB830 = {
@@ -275,6 +300,7 @@
 				04C208B02CF06A290003A27E /* 15. Tick Animation */,
 				04C208B32CF06D080003A27E /* 16. Home Layout */,
 				04C208B62CF070C80003A27E /* 17 Rich Text */,
+				04E60F7F2CFB216300AA4BC6 /* 18 Toast View */,
 			);
 			path = Widgets;
 			sourceTree = "<group>";
@@ -411,6 +437,7 @@
 				04C208AF2CF067100003A27E /* TickAnimationView.swift in Sources */,
 				04AF14EC2CDF47FF000ECA2B /* SlidingTabsDemoView.swift in Sources */,
 				4333BF4927A1930400AEDA01 /* Utility.swift in Sources */,
+				04E60F812CFB21CC00AA4BC6 /* ToastMessageDemoView.swift in Sources */,
 				43DF6220273413DF00BE847B /* OptionsListView.swift in Sources */,
 				0947888124B0AE24001EB830 /* CountryPicker.swift in Sources */,
 				4333BF5027A1B33400AEDA01 /* EndlessListViewModel.swift in Sources */,
@@ -420,6 +447,11 @@
 				04C208BA2CF0711F0003A27E /* RichTextDemoView.swift in Sources */,
 				0947885124B09FDE001EB830 /* AppDelegate.swift in Sources */,
 				4333BF4627A1913300AEDA01 /* EndlessList.swift in Sources */,
+				04E60F862CFB221600AA4BC6 /* ToastStyle.swift in Sources */,
+				04E60F872CFB221600AA4BC6 /* ToastView.swift in Sources */,
+				04E60F882CFB221600AA4BC6 /* Toast.swift in Sources */,
+				04E60F8B2CFB237600AA4BC6 /* View+Extension.swift in Sources */,
+				04E60F892CFB221600AA4BC6 /* ToastModifier.swift in Sources */,
 				4333BF4C27A1B2F400AEDA01 /* Color+Extension.swift in Sources */,
 				04AF14F22CDF77A7000ECA2B /* TinderSwipeView.swift in Sources */,
 				43FF3D912C8379AD000B9BE1 /* BeforeAfterImageSliderDemoView.swift in Sources */,
