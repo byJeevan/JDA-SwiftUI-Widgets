@@ -98,7 +98,12 @@ let options: [WidgetOptions] = [
   WidgetOptions(id: 18,
                 shortName: "Toast Message view",
                 description: "Small sized alert message view appears for a while without losing focus of user on main content of app.",
-                view: AnyView(ToastMessageDemoView()))
+                view: AnyView(ToastMessageDemoView())),
+  
+  WidgetOptions(id: 19,
+                shortName: "Carousel view",
+                description: "A component for cycling through elements, like a carousel (slideshow).",
+                view: AnyView(CarouselDemoView()))
 ]
 
 

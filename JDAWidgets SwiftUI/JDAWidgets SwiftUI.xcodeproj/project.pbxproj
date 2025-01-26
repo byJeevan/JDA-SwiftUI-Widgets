@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040C54B02D46538B00EA61C5 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040C54AF2D46538B00EA61C5 /* CarouselView.swift */; };
+		040C54B22D46539D00EA61C5 /* CarouselDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040C54B12D46539D00EA61C5 /* CarouselDemoView.swift */; };
 		04AF14EB2CDF47FF000ECA2B /* SlidingTabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF14E92CDF47FF000ECA2B /* SlidingTabsView.swift */; };
 		04AF14EC2CDF47FF000ECA2B /* SlidingTabsDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF14E82CDF47FF000ECA2B /* SlidingTabsDemoView.swift */; };
 		04AF14EE2CDF6C89000ECA2B /* SlidingTabsViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF14ED2CDF6C7E000ECA2B /* SlidingTabsViewItem.swift */; };
@@ -55,6 +57,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040C54AF2D46538B00EA61C5 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		040C54B12D46539D00EA61C5 /* CarouselDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselDemoView.swift; sourceTree = "<group>"; };
 		04AF14E82CDF47FF000ECA2B /* SlidingTabsDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingTabsDemoView.swift; sourceTree = "<group>"; };
 		04AF14E92CDF47FF000ECA2B /* SlidingTabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingTabsView.swift; sourceTree = "<group>"; };
 		04AF14ED2CDF6C7E000ECA2B /* SlidingTabsViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingTabsViewItem.swift; sourceTree = "<group>"; };
@@ -115,6 +119,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040C54AE2D46534800EA61C5 /* 19. Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				040C54AF2D46538B00EA61C5 /* CarouselView.swift */,
+				040C54B12D46539D00EA61C5 /* CarouselDemoView.swift */,
+			);
+			path = "19. Carousel";
+			sourceTree = "<group>";
+		};
 		04AF14EA2CDF47FF000ECA2B /* 13. Slidable Tabs */ = {
 			isa = PBXGroup;
 			children = (
@@ -283,6 +296,7 @@
 		43AB64812AEB810900744345 /* Widgets */ = {
 			isa = PBXGroup;
 			children = (
+				040C54AE2D46534800EA61C5 /* 19. Carousel */,
 				43294509276E30C600D8C38D /* 1. Dropdown */,
 				43DF611D2733BDD600BE847B /* 2 Country Picker */,
 				43294506276E2B9A00D8C38D /* 3 Floating Button */,
@@ -436,6 +450,7 @@
 				04AF14EB2CDF47FF000ECA2B /* SlidingTabsView.swift in Sources */,
 				04C208AF2CF067100003A27E /* TickAnimationView.swift in Sources */,
 				04AF14EC2CDF47FF000ECA2B /* SlidingTabsDemoView.swift in Sources */,
+				040C54B02D46538B00EA61C5 /* CarouselView.swift in Sources */,
 				4333BF4927A1930400AEDA01 /* Utility.swift in Sources */,
 				04E60F812CFB21CC00AA4BC6 /* ToastMessageDemoView.swift in Sources */,
 				43DF6220273413DF00BE847B /* OptionsListView.swift in Sources */,
@@ -457,6 +472,7 @@
 				43FF3D912C8379AD000B9BE1 /* BeforeAfterImageSliderDemoView.swift in Sources */,
 				43812C882C024A91005FDB24 /* TagsViewModel.swift in Sources */,
 				04C208B22CF06CD20003A27E /* TickContentView.swift in Sources */,
+				040C54B22D46539D00EA61C5 /* CarouselDemoView.swift in Sources */,
 				0947888324B0CA32001EB830 /* CountryModel.swift in Sources */,
 				43D386FF2BEFEE8600ECEB06 /* TagsDemoView.swift in Sources */,
 				43AB64862AEB815900744345 /* CustomDialogExampleView.swift in Sources */,
