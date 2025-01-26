@@ -1,12 +1,7 @@
 # JDA-SwiftUI-Widgets #
 **SwiftUI components for day-to-day life of iOS Developer 💻**
 
-### Environment
-- Xcode 16.0
-- Minimum Deployment iOS 15.0+
-- Written in Swift 5.0, SwiftUI 3.0 
-
-### Available Widgets ###
+### Includes Widgets ###
 
 | #  | Short Name                             | Description                                                                                       |
 |----|----------------------------------------|---------------------------------------------------------------------------------------------------|
@@ -28,11 +23,16 @@
 | 16 | Home layout                            | A layout having all basic building blocks of a home page common in apps.                         |
 | 17 | Rich Text view                         | Handles other than normal text like HTML, Markdown as given input.                               |
 | 18 | Toast Message view                     | Small-sized alert message view appears briefly without losing user focus on the main content.    |
-| 19 | Carousel view                          | A component for cycling through elements, like a carousel (slideshow).                          |
+| 19 | Carousel view 🆕                         | A component for cycling through elements, like a carousel (slideshow).                          |
 
 
 & few more on pipeline.
 
+### Environment
+- Xcode 16.0
+- Minimum Deployment iOS 15.0+
+- Written in Swift 5.0, SwiftUI 3.0
+  
 ## Demo ##
 ![JDA-SwiftUI-Widgets-demo](https://github.com/byJeevan/JDA-SwiftUI-Widgets/assets/7850655/3932dbec-c983-4447-a8f5-73169ad9f325)
 
