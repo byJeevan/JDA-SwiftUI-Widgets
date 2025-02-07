@@ -1,5 +1,5 @@
 # JDA-SwiftUI-Widgets #
-**SwiftUI components for day-to-day life of iOS Developer 💻**
+**Building blocks written in SwiftUI for common day-to-day app development. In short this saves time for UI development. **
 
 ### Includes Widgets ###
 
