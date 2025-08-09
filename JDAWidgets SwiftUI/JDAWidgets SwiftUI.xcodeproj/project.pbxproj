@@ -19,6 +19,10 @@
 		04C208B52CF06F2B0003A27E /* HomeLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C208B42CF06F2B0003A27E /* HomeLayout.swift */; };
 		04C208B82CF070E00003A27E /* RichTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C208B72CF070E00003A27E /* RichTextView.swift */; };
 		04C208BA2CF0711F0003A27E /* RichTextDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C208B92CF0711F0003A27E /* RichTextDemoView.swift */; };
+		04CEDCF02E46F219000F8F03 /* CachedAsyncImageDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDCEF2E46F219000F8F03 /* CachedAsyncImageDemo.swift */; };
+		04CEDCF22E46F228000F8F03 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDCF12E46F228000F8F03 /* ImageCache.swift */; };
+		04CEDCF42E46F286000F8F03 /* AsyncImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDCF32E46F286000F8F03 /* AsyncImageLoader.swift */; };
+		04CEDCF62E46F2B1000F8F03 /* CachedAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDCF52E46F2B1000F8F03 /* CachedAsyncImage.swift */; };
 		04E60F812CFB21CC00AA4BC6 /* ToastMessageDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E60F802CFB21CC00AA4BC6 /* ToastMessageDemoView.swift */; };
 		04E60F862CFB221600AA4BC6 /* ToastStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E60F842CFB221600AA4BC6 /* ToastStyle.swift */; };
 		04E60F872CFB221600AA4BC6 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E60F852CFB221600AA4BC6 /* ToastView.swift */; };
@@ -69,6 +73,10 @@
 		04C208B42CF06F2B0003A27E /* HomeLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLayout.swift; sourceTree = "<group>"; };
 		04C208B72CF070E00003A27E /* RichTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichTextView.swift; sourceTree = "<group>"; };
 		04C208B92CF0711F0003A27E /* RichTextDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichTextDemoView.swift; sourceTree = "<group>"; };
+		04CEDCEF2E46F219000F8F03 /* CachedAsyncImageDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedAsyncImageDemo.swift; sourceTree = "<group>"; };
+		04CEDCF12E46F228000F8F03 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		04CEDCF32E46F286000F8F03 /* AsyncImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageLoader.swift; sourceTree = "<group>"; };
+		04CEDCF52E46F2B1000F8F03 /* CachedAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedAsyncImage.swift; sourceTree = "<group>"; };
 		04E60F802CFB21CC00AA4BC6 /* ToastMessageDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastMessageDemoView.swift; sourceTree = "<group>"; };
 		04E60F822CFB221600AA4BC6 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		04E60F832CFB221600AA4BC6 /* ToastModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastModifier.swift; sourceTree = "<group>"; };
@@ -170,6 +178,17 @@
 				04C208B92CF0711F0003A27E /* RichTextDemoView.swift */,
 			);
 			path = "17 Rich Text";
+			sourceTree = "<group>";
+		};
+		04CEDCEE2E46F1F0000F8F03 /* 20. Cached Async Image */ = {
+			isa = PBXGroup;
+			children = (
+				04CEDCF12E46F228000F8F03 /* ImageCache.swift */,
+				04CEDCEF2E46F219000F8F03 /* CachedAsyncImageDemo.swift */,
+				04CEDCF32E46F286000F8F03 /* AsyncImageLoader.swift */,
+				04CEDCF52E46F2B1000F8F03 /* CachedAsyncImage.swift */,
+			);
+			path = "20. Cached Async Image";
 			sourceTree = "<group>";
 		};
 		04E60F7F2CFB216300AA4BC6 /* 18 Toast View */ = {
@@ -296,6 +315,7 @@
 		43AB64812AEB810900744345 /* Widgets */ = {
 			isa = PBXGroup;
 			children = (
+				04CEDCEE2E46F1F0000F8F03 /* 20. Cached Async Image */,
 				040C54AE2D46534800EA61C5 /* 19. Carousel */,
 				43294509276E30C600D8C38D /* 1. Dropdown */,
 				43DF611D2733BDD600BE847B /* 2 Country Picker */,
@@ -446,6 +466,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CEDCF02E46F219000F8F03 /* CachedAsyncImageDemo.swift in Sources */,
 				43AB64882AEB816000744345 /* CustomDialogView.swift in Sources */,
 				04AF14EB2CDF47FF000ECA2B /* SlidingTabsView.swift in Sources */,
 				04C208AF2CF067100003A27E /* TickAnimationView.swift in Sources */,
@@ -460,6 +481,7 @@
 				43812C862C024A7C005FDB24 /* TagsContentView.swift in Sources */,
 				439B9EA62793352F00B5BBD2 /* BasicActivityIndicator.swift in Sources */,
 				04C208BA2CF0711F0003A27E /* RichTextDemoView.swift in Sources */,
+				04CEDCF42E46F286000F8F03 /* AsyncImageLoader.swift in Sources */,
 				0947885124B09FDE001EB830 /* AppDelegate.swift in Sources */,
 				4333BF4627A1913300AEDA01 /* EndlessList.swift in Sources */,
 				04E60F862CFB221600AA4BC6 /* ToastStyle.swift in Sources */,
@@ -475,9 +497,11 @@
 				040C54B22D46539D00EA61C5 /* CarouselDemoView.swift in Sources */,
 				0947888324B0CA32001EB830 /* CountryModel.swift in Sources */,
 				43D386FF2BEFEE8600ECEB06 /* TagsDemoView.swift in Sources */,
+				04CEDCF22E46F228000F8F03 /* ImageCache.swift in Sources */,
 				43AB64862AEB815900744345 /* CustomDialogExampleView.swift in Sources */,
 				04AF14EE2CDF6C89000ECA2B /* SlidingTabsViewItem.swift in Sources */,
 				43D386FC2BEFEC5000ECEB06 /* StarRatingDemoView.swift in Sources */,
+				04CEDCF62E46F2B1000F8F03 /* CachedAsyncImage.swift in Sources */,
 				0947885324B09FDE001EB830 /* SceneDelegate.swift in Sources */,
 				43294508276E2BB300D8C38D /* FloatingButton.swift in Sources */,
 				04C208B52CF06F2B0003A27E /* HomeLayout.swift in Sources */,
