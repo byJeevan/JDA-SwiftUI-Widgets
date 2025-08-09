@@ -23,7 +23,8 @@
 | 16 | Home layout                            | A layout having all basic building blocks of a home page common in apps.                         |
 | 17 | Rich Text view                         | Handles other than normal text like HTML, Markdown as given input.                               |
 | 18 | Toast Message view                     | Small-sized alert message view appears briefly without losing user focus on the main content.    |
-| 19 | Carousel view 🆕                         | A component for cycling through elements, like a carousel (slideshow).                          |
+| 19 | Carousel view 🆕                       | A component for cycling through elements, like a carousel (slideshow).                          |
+| 20 | Cached Async Image view 🆕             | Loads image asynchronously and also caches to save network bandwidth                          |
 
 
 & few more on pipeline.
