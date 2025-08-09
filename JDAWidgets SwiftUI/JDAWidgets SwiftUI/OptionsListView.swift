@@ -103,7 +103,12 @@ let options: [WidgetOptions] = [
   WidgetOptions(id: 19,
                 shortName: "Carousel view",
                 description: "A component for cycling through elements, like a carousel (slideshow).",
-                view: AnyView(CarouselDemoView()))
+                view: AnyView(CarouselDemoView())),
+  
+  WidgetOptions(id: 20,
+                shortName: "Cached Async Image",
+                description: "Loads image asynchronously and also caches to save network bandwidth",
+                view: AnyView(CachedAsyncImageDemo()))
 ]
 
 
